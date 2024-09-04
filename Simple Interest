@@ -1,0 +1,9 @@
+import java.util.Scanner;
+class Interest
+ {  
+   public static void main (String args[])  
+    {   float p, r,  t,  s;   
+              p = 13000;  r = 12; t = 2;  
+               s  = (p*r*t)/100;   
+              System.out.println("Simple Interest is: " +s);  
+    }}  
