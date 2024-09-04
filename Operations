@@ -1,0 +1,20 @@
+import java.util.Scanner;
+class Operations
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter first number: ");
+        int a=sc.nextInt();
+        System.out.println("Enter second number: ");
+        int b=sc.nextInt();
+        int sum=a+b;
+        System.out.println("Sum: "+sum);
+        int difference=a-b;
+        System.out.println("Difference: "+difference);
+        int product=a*b;
+        System.out.println("Product: "+product);
+        int quotient=a/b;
+        System.out.println("Quotient: "+quotient);
+    }
+}
