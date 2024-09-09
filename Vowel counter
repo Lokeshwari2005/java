@@ -1,31 +1,19 @@
 public class VowelCounter {
     public static void main(String[] args) {
-        // Example input string
         String input = "Hello, World!";
-        
-        // Call the method to count vowels
         int vowelCount = countVowels(input);
-        
-        // Print the result
         System.out.println("Number of vowels: " + vowelCount);
     }
 
     public static int countVowels(String str) {
-        // Convert the string to lowercase to handle both uppercase and lowercase vowels
         str = str.toLowerCase();
-        
-        // Initialize vowel count
         int count = 0;
-        
-        // Iterate through each character in the string
         for (char c : str.toCharArray()) {
-            // Check if the character is a vowel
             if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u') {
                 count++;
             }
         }
-        
-        // Return the count of vowels
+
         return count;
     }
 }
